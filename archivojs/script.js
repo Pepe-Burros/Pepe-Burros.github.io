@@ -15,17 +15,17 @@ const sr=ScrollReveal(
 );
 
 //ANIMACIONES JSJSAKJSKAJ
-sr.reveal('.home-text',{delay:10});
-sr.reveal('.container-box',{delay:200});
-sr.reveal('.contac-text',{delay:200});
-sr.reveal('.details',{delay:200});
-sr.reveal('.home-img',{delay:400});
-sr.reveal('.middle-text',{delay:250});
-sr.reveal('.menu-contenido',{delay:470});
-sr.reveal('.Return',{delay:470});
-sr.reveal('.card',{delay:470});
-sr.reveal('.menu-grid',{delay:470});
-
+sr.reveal('.home-text',{delay:0.2});
+sr.reveal('.container-box',{delay:0.2});
+sr.reveal('.contac-text',{delay:0.2});
+sr.reveal('.details',{delay:0.2});
+sr.reveal('.home-img',{delay:0.2});
+sr.reveal('.middle-text',{delay:0.2});
+sr.reveal('.menu-contenido',{delay:0.2});
+sr.reveal('.Return',{delay:0.2});
+sr.reveal('.card',{delay:0.2});
+sr.reveal('.menu-grid',{delay:0.2});
+sr.reveal('.Logo',{delay:0.2});
 //PRUEBA TOOGLE INFORMACION
 function toggleDesc(el) {
   el.classList.toggle('active');

@@ -22,7 +22,7 @@
 }
 
 body {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  background: 
         url("../img/fondoo.png");
   background-size: cover;
   background-position: center;
@@ -82,14 +82,7 @@ header {
     color: var(--main-color);
 }
 
-.nav-icons {
-display: flex;
-align-items: center;
-padding: 8px 15px;
-background: var(--main-color);
-border-radius: 3rem;
-box-shadow: #ff9f0d 0px 1px 25px;
-}
+
   /*Home*/
   section {
     padding: 70px 14% 60px;
@@ -106,10 +99,6 @@ box-shadow: #ff9f0d 0px 1px 25px;
     
   }
 
-  .home-img {
-    width: 100%;
-    height: auto;
-  }
 
   .home-text h1 {
     font-size: var(--big-font);
@@ -149,7 +138,7 @@ span {
 
 header.sticky {
     padding: 12px 14%;
-    background: var(--other-color);
+    background-color: rgba(0,0,0,0.85);
 }
 
     
@@ -261,8 +250,7 @@ header.sticky {
     padding: 10px 35px 40px;
     background: var(--other-color);
     border-radius: 3rem;
-    box-shadow: 0 0 9px var(--main-color);
-   
+    box-shadow: 0 0 9px var(--main-color);  
 }
 
 .row img {
@@ -455,7 +443,8 @@ header.sticky {
         --p-font:15px
     }
     .home{
-        height: 85vh;
+        height: 55vh;
+ 
     }
 }
 
@@ -467,6 +456,7 @@ header.sticky {
     --p-font: 15px;
   }
 
+  
   .menu-contenido {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -639,4 +629,12 @@ background-color: var(--main-color);
 .item span:last-child {
   color: var(--main-color);
   font-weight: bold;
+}
+
+.Index {
+    padding-top: 20vh;
+}
+
+.Logo {
+   padding-left: 5.5rem;
 }
